@@ -1,0 +1,16 @@
+{
+  "holes": -4.26463255736053,
+  "cell_coveredness": -0.6338074315263516,
+  "height": -0.006644734608920677,
+  "height_upper_half": -0.9995076302858832,
+  "height_upper_quarter": -5.22664317858442,
+  "bumpiness": -0.34619556084741454,
+  "bumpiness_sq": -0.26631848038838934,
+  "row_transitions": -0.34202042253550446,
+  "well_depth": 0.34291681995182255,
+  "tsd_overhang": 5.614552808774365,
+  "four_wide_well": 1.731780265482999,
+  "attack_weight": 0.20773249392758777,
+  "chain_weight": 0.604931579327329,
+  "context_weight": 0.27364085357438067
+}

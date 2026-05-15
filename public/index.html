@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tetris AI Web</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="stage" aria-label="Tetris game">
+        <div class="hud hud-left">
+          <div class="panel compact">
+            <span class="label">Hold</span>
+            <canvas id="hold" width="112" height="84"></canvas>
+          </div>
+          <div class="panel stats">
+            <div><span>Score</span><strong id="score">0</strong></div>
+            <div><span>Lines</span><strong id="lines">0</strong></div>
+            <div><span>Level</span><strong id="level">1</strong></div>
+            <div><span>Combo</span><strong id="combo">0</strong></div>
+          </div>
+          <div class="panel controls">
+            <span class="label">Keys</span>
+            <p>F/J move · I/E/O rotate · Space drop · Q/P soft · W hold</p>
+          </div>
+        </div>
+
+        <div class="board-wrap">
+          <canvas id="board" width="300" height="660"></canvas>
+          <div id="overlay" class="overlay">
+            <h1>Tetris</h1>
+            <p>Press Enter or tap Start</p>
+            <button id="start">Start</button>
+          </div>
+        </div>
+
+        <div class="hud hud-right">
+          <div class="panel next">
+            <span class="label">Next</span>
+            <canvas id="next" width="120" height="360"></canvas>
+          </div>
+          <button id="pause" class="action">Pause</button>
+          <button id="restart" class="action">Restart</button>
+        </div>
+      </section>
+
+      <nav class="touch" aria-label="Touch controls">
+        <button data-key="f">Left</button>
+        <button data-key="j">Right</button>
+        <button data-key="i">CW</button>
+        <button data-key="e">CCW</button>
+        <button data-key=" ">Drop</button>
+        <button data-key="w">Hold</button>
+      </nav>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
+

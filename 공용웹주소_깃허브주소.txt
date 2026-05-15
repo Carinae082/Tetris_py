@@ -1,0 +1,3 @@
+공용 웹 주소(Render): https://여기에-render-주소.onrender.com
+깃허브 주소: https://github.com/깃허브아이디/저장소이름
+

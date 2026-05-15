@@ -1,0 +1,47 @@
+{
+  "das": 114,
+  "arr": 0,
+  "sdf": 41,
+  "keys": {
+    "Move Left": [
+      102,
+      null,
+      null
+    ],
+    "Move Right": [
+      106,
+      null,
+      null
+    ],
+    "Rotate CW": [
+      105,
+      null,
+      null
+    ],
+    "Rotate CCW": [
+      101,
+      null,
+      null
+    ],
+    "Rotate 180": [
+      111,
+      null,
+      null
+    ],
+    "Hard Drop": [
+      32,
+      null,
+      null
+    ],
+    "Soft Drop": [
+      113,
+      112,
+      null
+    ],
+    "Hold": [
+      119,
+      null,
+      null
+    ]
+  }
+}

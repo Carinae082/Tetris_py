@@ -1,0 +1,6 @@
+services:
+  - type: static
+    name: tetris-ai-web
+    buildCommand: echo "Static Tetris build complete"
+    staticPublishPath: ./public
+
